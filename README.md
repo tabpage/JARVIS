@@ -119,7 +119,7 @@ Agent Output:
 **Tactical Solution:** Use `lru-cache` indexed by URL and request parameters.
 ```js
 const cache = new LRUCache({ max: 500, ttl: 60_000 });
-```
+
 **System Diagnostic:** Reasoned via core logic; requires verification against target deployment infrastructure.
 **Next Actions:** Confirm whether deployment environment is single-instance or multi-instance.
 
